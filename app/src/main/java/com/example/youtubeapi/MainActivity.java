@@ -30,7 +30,7 @@ public class MainActivity extends YouTubeBaseActivity {
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("usA25ulAFXc");
+                youTubePlayer.loadVideo("usA25ulAFXc"); //https://www.youtube.com/watch?v=usA25ulAFXc&ab_channel=M%C3%A1tPh%E1%BB%91EDM
 
                 Log.d("123123", "success");
             }
@@ -47,6 +47,8 @@ public class MainActivity extends YouTubeBaseActivity {
 
     }
 }
+//https://www.youtube.com/watch?v=usA25ulAFXc&ab_channel=M%C3%A1tPh%E1%BB%91EDM   //usA25ulAFXc
+
 //Error when rotate screen -> fix: file manifest
 // android:name=".MainActivity"
 //android:configChanges="orientation|screenSize"
